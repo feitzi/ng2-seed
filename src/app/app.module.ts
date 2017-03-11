@@ -18,13 +18,14 @@ import { rootRouterConfig } from './app.routes';
     AppComponent
   ],
   imports: [
-    BrowserModule, FormsModule, HttpModule, FlexLayoutModule.forRoot(), ReactiveFormsModule, RouterModule.forRoot(rootRouterConfig), MomentModule
+    BrowserModule, FormsModule, HttpModule, FlexLayoutModule.forRoot(), ReactiveFormsModule, RouterModule.forRoot(rootRouterConfig), MomentModule,
   ],
   providers: [
-    { provide: LocationStrategy, useClass: HashLocationStrategy },
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
   ],
   bootstrap: [AppComponent],
 })
 export class AppModule {
   
+  constructor() {}
 }
