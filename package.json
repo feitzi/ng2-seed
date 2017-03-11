@@ -1,0 +1,65 @@
+{
+  "name": "angular2-seed",
+  "version": "1.0.0",
+  "description": "A sample app to start a real world application with angular 2",
+  "author": {
+    "name": "Mathias Feitzinger",
+    "email": "mathias@feitzinger.org"
+  },
+  "scripts": {
+    "build": "webpack --colors --progress",
+    "watch": "npm run build -- --watch",
+    "server": "webpack-dev-server --inline --colors --progress --port 3000 --content-base src",
+    "start": "npm run server"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "@types/hammerjs": "^2.0.34",
+    "@types/node": "7.0.7",
+    "angular2-template-loader": "^0.6.0",
+    "awesome-typescript-loader": "^3.1.1",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.10.1",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.26.0",
+    "json-loader": "^0.5.4",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.1",
+    "to-string-loader": "^1.1.5",
+    "typescript": "^2.1.4",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1",
+    "webpack-merge": "^4.0.0"
+  },
+  "dependencies": {
+    "@amphibian/mime-types": "^1.0.3",
+    "@angular/common": "~2.4.1",
+    "@angular/compiler": "~2.4.1",
+    "@angular/core": "~2.4.1",
+    "@angular/flex-layout": "^2.0.0-beta.5",
+    "@angular/forms": "~2.4.1",
+    "@angular/http": "~2.4.1",
+    "@angular/platform-browser": "~2.4.1",
+    "@angular/platform-browser-dynamic": "~2.4.1",
+    "@angular/platform-server": "~2.4.1",
+    "@angular/router": "~3.4.1",
+    "@angular/upgrade": "~2.4.1",
+    "@types/rx-dom": "^7.0.0",
+    "angular2-moment": "^1.2.0",
+    "core-js": "^2.4.1",
+    "font-awesome": "^4.7.0",
+    "hammerjs": "^2.0.8",
+    "ie-shim": "^0.1.0",
+    "linq-es2015": "^2.4.13",
+    "moment": "^2.17.1",
+    "reflect-metadata": "^0.1.9",
+    "rx-dom": "^7.0.3",
+    "rxjs": "^5.1.0",
+    "zone.js": "~0.7.4"
+  },
+  "keywords": [
+    "Angular2 Seed"
+  ]
+}
