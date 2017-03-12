@@ -38,6 +38,10 @@ var webpackConfig = {
         test: /\.less$/,
         loaders: ['to-string-loader', 'css-loader', 'less-loader']
       },
+        {
+        test: /\.(scss|sass)/,
+        loaders: ['to-string-loader', 'css-loader', 'sass-loader']
+      },
       {
         test: /\.css$/,
         loaders: ['style-loader', 'css-loader']
